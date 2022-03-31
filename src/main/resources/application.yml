@@ -1,6 +1,5 @@
 spring:
   datasource:
-<<<<<<< HEAD
     # 配置数据源信息 datasource:
     dynamic:
       # 设置默认的数据源或者数据源组,默认值即为master
@@ -19,12 +18,6 @@ spring:
           driver-class-name: com.mysql.cj.jdbc.Driver
           username: root
           password: 'hxl158120'
-
-=======
-    url: jdbc:mysql://localhost:3306/mybatis_plus?useSSL=false&serverTimezone=GMT%2B8&allowPublicKeyRetrieval=true
-    username: root
-    password: hxl158120
-    driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis-plus:
   mapper-locations: /mapper/**
   configuration:
@@ -43,4 +36,4 @@ mybatis-plus:
 #      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
   # 扫描枚举的包
   type-enums-package: com.ssm.mybatis_plus.enums
->>>>>>> 07c231ce932f21b3503bcf7886386f72c3c45658
+
